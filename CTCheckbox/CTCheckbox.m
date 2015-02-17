@@ -41,7 +41,7 @@ static const float CTCheckboxDefaultSideLength = 20.0;
     self.backgroundColorDictionary = [NSMutableDictionary dictionary];
 
     self.checkboxSideLength = CTCheckboxDefaultSideLength;
-    self.checkboxColor = [UIColor blackColor];
+    self.checkboxColor = [UIColor whiteColor];
     self.backgroundColor = [UIColor clearColor];
     self.textLabel = [[UILabel alloc] initWithFrame:CGRectZero];
     self.textLabel.backgroundColor = [UIColor clearColor];
@@ -83,7 +83,7 @@ static const float CTCheckboxDefaultSideLength = 20.0;
     }
 
     if (!color) {
-        color = [UIColor blackColor];
+        color = [UIColor whiteColor];
     }
 
     self.checkboxColor = color;
